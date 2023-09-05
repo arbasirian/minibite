@@ -5,7 +5,7 @@ const App: React.FC = () => {
   return (
     <div>
       <Header />
-      BODY
+      BODY TEST
     </div>
   );
 };
