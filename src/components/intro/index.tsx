@@ -4,7 +4,7 @@ import { ContentWrapper, ImageWrapper, IntroWrapper } from "./intro.styles";
 const Intro: React.FC = () => {
   return (
     <IntroWrapper>
-      <ContentWrapper>
+      <ContentWrapper className="Container">
         <p>A GLOBAL FOOD EXPERIENCE</p>
         <h1>Taste the World on Your Plate</h1>
       </ContentWrapper>
