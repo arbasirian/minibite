@@ -6,8 +6,6 @@ const App: React.FC = () => {
     <div>
       <Header />
       <Intro />
-      <About />
-      BODY TEST
     </div>
   );
 };

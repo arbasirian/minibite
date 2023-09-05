@@ -4,13 +4,27 @@ import React from "react";
 const Wrapper = styled.div`
   min-height: 67px;
   display: flex;
-  justify-content: space-between;
+
   align-items: center;
   padding: 12px 20px;
 `;
 
+const LogoWrapper = styled.div`
+  width: 55px;
+  img {
+    width: 100%;
+  }
+`;
+
 const Header: React.FC = () => {
-  return <Wrapper className="container">MiniBite</Wrapper>;
+  return (
+    <Wrapper className="container">
+      <LogoWrapper>
+        <img src="images/logo.jpg" alt="LOGO" />
+      </LogoWrapper>
+      <p>MINIBITE</p>
+    </Wrapper>
+  );
 };
 
 export default Header;

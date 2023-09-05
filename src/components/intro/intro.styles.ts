@@ -4,6 +4,8 @@ export const IntroWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-height: calc(100vh - 67px);
+  overflow: hidden;
 `;
 
 export const ContentWrapper = styled.div`
@@ -19,4 +21,8 @@ export const ImageWrapper = styled.div`
     width: 100%;
     object-fit: contain;
   }
+`;
+
+export const ButtonWrapper = styled.div`
+  margin: 16px;
 `;
